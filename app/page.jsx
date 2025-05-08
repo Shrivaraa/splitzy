@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container mx-auto max-w-5xl overflow-hidden rounded-xl shadow-xl">
+        {/* <div className="container mx-auto max-w-5xl overflow-hidden rounded-xl shadow-xl">
           <div className="gradient p-1 aspect-[16/9]">
             <Image
               src="/hero.png"
@@ -59,7 +59,7 @@ export default function Home() {
               priority
             />
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* ───── Features ───── */}
@@ -140,8 +140,8 @@ export default function Home() {
                   <div className="flex items-center space-x-3">
                     <Avatar>
                       {/* Placeholder avatar */}
-                      <AvatarImage src={image} alt={name} />
-                      <AvatarFallback className="uppercase">
+                      {/* <AvatarImage src={image} alt={name} /> */}
+                      <AvatarFallback className="uppercase bg-emerald-400">
                         {name.charAt(0)}
                       </AvatarFallback>
                     </Avatar>
